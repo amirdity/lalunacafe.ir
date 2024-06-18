@@ -1,0 +1,30 @@
+.navbar{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: var(--color-green);
+  padding: 1rem 2rem
+  /* padding => first = Y , second = X */
+}
+.logo{
+  display: flex;
+  /* justify-content: flex-start; */
+  align-items: center;
+}
+.logo img{
+  width: 150px;
+
+}
+.links{
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+.links li{
+  margin: 0 1rem;
+  /* => first = Y , second = X  */
+  cursor: pointer;
+}
